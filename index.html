@@ -1,0 +1,24 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title> Light Bulb Demo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <h2>What Can Javascript Do?</h2>
+
+    <p>Javascript can change HTML attribute values of different elements on the page.</p>
+
+    <p> In this case, Javascript changes the value of the src (source) attribute of different elements on the page.</p>
+    
+    <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">Turn on the light </button>
+
+    <img id="myImage" src="images/pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">Turn off the light </button>
+
+</body>
+</html>
